@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		BC3FFD3C298DF70B00FF0F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD3B298DF70B00FF0F44 /* AppDelegate.swift */; };
 		BC3FFD3E298DF70B00FF0F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD3D298DF70B00FF0F44 /* SceneDelegate.swift */; };
-		BC3FFD40298DF70B00FF0F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD3F298DF70B00FF0F44 /* ViewController.swift */; };
-		BC3FFD43298DF70B00FF0F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FFD41298DF70B00FF0F44 /* Main.storyboard */; };
+		BC3FFD40298DF70B00FF0F44 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD3F298DF70B00FF0F44 /* RMTabBarController.swift */; };
 		BC3FFD45298DF70D00FF0F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3FFD44298DF70D00FF0F44 /* Assets.xcassets */; };
 		BC3FFD48298DF70D00FF0F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FFD46298DF70D00FF0F44 /* LaunchScreen.storyboard */; };
+		BC3FFD5B298DFB9000FF0F44 /* RMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD5A298DFB9000FF0F44 /* RMLocation.swift */; };
+		BC3FFD5E298DFBAB00FF0F44 /* RMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD5D298DFBAB00FF0F44 /* RMCharacter.swift */; };
+		BC3FFD61298DFBCC00FF0F44 /* RMEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD60298DFBCC00FF0F44 /* RMEpisode.swift */; };
+		BC3FFD66298DFF3400FF0F44 /* RMCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD65298DFF3400FF0F44 /* RMCharacterViewController.swift */; };
+		BC3FFD6A298DFF5400FF0F44 /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD69298DFF5400FF0F44 /* RMLocationViewController.swift */; };
+		BC3FFD6D298DFF6800FF0F44 /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD6C298DFF6800FF0F44 /* RMEpisodeViewController.swift */; };
+		BC3FFD70298DFF8600FF0F44 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3FFD6F298DFF8600FF0F44 /* RMSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC3FFD38298DF70B00FF0F44 /* MyLocoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3FFD3B298DF70B00FF0F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC3FFD3D298DF70B00FF0F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC3FFD3F298DF70B00FF0F44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC3FFD42298DF70B00FF0F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3FFD3F298DF70B00FF0F44 /* RMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabBarController.swift; sourceTree = "<group>"; };
 		BC3FFD44298DF70D00FF0F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3FFD47298DF70D00FF0F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3FFD49298DF70D00FF0F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FFD5A298DFB9000FF0F44 /* RMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocation.swift; sourceTree = "<group>"; };
+		BC3FFD5D298DFBAB00FF0F44 /* RMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacter.swift; sourceTree = "<group>"; };
+		BC3FFD60298DFBCC00FF0F44 /* RMEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisode.swift; sourceTree = "<group>"; };
+		BC3FFD65298DFF3400FF0F44 /* RMCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterViewController.swift; sourceTree = "<group>"; };
+		BC3FFD69298DFF5400FF0F44 /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
+		BC3FFD6C298DFF6800FF0F44 /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
+		BC3FFD6F298DFF8600FF0F44 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,85 @@
 		BC3FFD3A298DF70B00FF0F44 /* MyLocoApp */ = {
 			isa = PBXGroup;
 			children = (
-				BC3FFD3B298DF70B00FF0F44 /* AppDelegate.swift */,
-				BC3FFD3D298DF70B00FF0F44 /* SceneDelegate.swift */,
-				BC3FFD3F298DF70B00FF0F44 /* ViewController.swift */,
-				BC3FFD41298DF70B00FF0F44 /* Main.storyboard */,
-				BC3FFD44298DF70D00FF0F44 /* Assets.xcassets */,
-				BC3FFD46298DF70D00FF0F44 /* LaunchScreen.storyboard */,
+				BC3FFD58298DFAA200FF0F44 /* Resources */,
+				BC3FFD57298DFA7F00FF0F44 /* Controllers */,
+				BC3FFD56298DFA7000FF0F44 /* Views */,
+				BC3FFD55298DFA6000FF0F44 /* ViewModels */,
+				BC3FFD53298DFA2A00FF0F44 /* APIClient */,
+				BC3FFD54298DFA3400FF0F44 /* Models */,
+				BC3FFD52298DFA2100FF0F44 /* Manager */,
 				BC3FFD49298DF70D00FF0F44 /* Info.plist */,
 			);
 			path = MyLocoApp;
+			sourceTree = "<group>";
+		};
+		BC3FFD52298DFA2100FF0F44 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BC3FFD53298DFA2A00FF0F44 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		BC3FFD54298DFA3400FF0F44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FFD5A298DFB9000FF0F44 /* RMLocation.swift */,
+				BC3FFD5D298DFBAB00FF0F44 /* RMCharacter.swift */,
+				BC3FFD60298DFBCC00FF0F44 /* RMEpisode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC3FFD55298DFA6000FF0F44 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BC3FFD56298DFA7000FF0F44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC3FFD57298DFA7F00FF0F44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FFD64298DFC5D00FF0F44 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC3FFD58298DFAA200FF0F44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FFD3B298DF70B00FF0F44 /* AppDelegate.swift */,
+				BC3FFD44298DF70D00FF0F44 /* Assets.xcassets */,
+				BC3FFD46298DF70D00FF0F44 /* LaunchScreen.storyboard */,
+				BC3FFD3D298DF70B00FF0F44 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC3FFD64298DFC5D00FF0F44 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FFD3F298DF70B00FF0F44 /* RMTabBarController.swift */,
+				BC3FFD65298DFF3400FF0F44 /* RMCharacterViewController.swift */,
+				BC3FFD69298DFF5400FF0F44 /* RMLocationViewController.swift */,
+				BC3FFD6C298DFF6800FF0F44 /* RMEpisodeViewController.swift */,
+				BC3FFD6F298DFF8600FF0F44 /* RMSettingsViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +208,6 @@
 			files = (
 				BC3FFD48298DF70D00FF0F44 /* LaunchScreen.storyboard in Resources */,
 				BC3FFD45298DF70D00FF0F44 /* Assets.xcassets in Resources */,
-				BC3FFD43298DF70B00FF0F44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +218,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3FFD40298DF70B00FF0F44 /* ViewController.swift in Sources */,
+				BC3FFD6A298DFF5400FF0F44 /* RMLocationViewController.swift in Sources */,
+				BC3FFD61298DFBCC00FF0F44 /* RMEpisode.swift in Sources */,
+				BC3FFD40298DF70B00FF0F44 /* RMTabBarController.swift in Sources */,
+				BC3FFD6D298DFF6800FF0F44 /* RMEpisodeViewController.swift in Sources */,
 				BC3FFD3C298DF70B00FF0F44 /* AppDelegate.swift in Sources */,
 				BC3FFD3E298DF70B00FF0F44 /* SceneDelegate.swift in Sources */,
+				BC3FFD70298DFF8600FF0F44 /* RMSettingsViewController.swift in Sources */,
+				BC3FFD5B298DFB9000FF0F44 /* RMLocation.swift in Sources */,
+				BC3FFD5E298DFBAB00FF0F44 /* RMCharacter.swift in Sources */,
+				BC3FFD66298DFF3400FF0F44 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC3FFD41298DF70B00FF0F44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC3FFD42298DF70B00FF0F44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC3FFD46298DF70D00FF0F44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
